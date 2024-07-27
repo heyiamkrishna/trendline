@@ -29,21 +29,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1vw;
+    gap: 0.5vw;
     padding: 0px 2vw;
 }
 
 #nav-part1 .circle1 {
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: black;
 
 }
 
 #nav-part1 .circle2 {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: black;
 
@@ -57,9 +57,38 @@ body {
     text-transform: capitalize;
 }
 #nav-part2 h4{
-    font-size: 1.2vw;
+    font-weight: 500;
+    font-size: 1.3vw;
 }
 #nav-part2 h4:nth-child(4n){
-    background-color: blue;
+    /* background-color: blue; */
     margin-right: 2vw;
+}
+#nav2{
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2vw;
+    margin-top: 1vw;
+
+    
+}
+#nav2 h5{
+    font-size: 1.2vw;
+    padding: 2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#content-page{
+    height: calc(100% - 105px);
+    width: 100%;
+    background-color: blue;
+}
+#text-content{
+    height: 50%;
+    width: 100%;
+    background-color: aliceblue;
 }
