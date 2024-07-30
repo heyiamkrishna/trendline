@@ -122,7 +122,6 @@ body {
     text-transform: capitalize;
 
     flex-shrink: 0;
-    /* border: 2px solid green; */
 }
 #text-content::-webkit-scrollbar{
      background-color: transparent;
@@ -197,9 +196,6 @@ body {
     align-items: center;
     text-transform: capitalize;
 }
-
-
-
 #nav-part2 h4 {
     font-weight: 500;
     font-size: 3.5vw;
