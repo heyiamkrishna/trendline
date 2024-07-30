@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html,
@@ -63,8 +67,11 @@ body {
     font-size: 1.3vw;
 }
 
-#nav-part2 h4:nth-child(4n) {
-    /* background-color: blue; */
+#nav-part2 span{
+    margin-left: 0.4vw;
+    color: rgb(76, 84, 241);
+}
+#nav-part2 h4:nth-child(5n) {
     margin-right: 2vw;
 }
 
@@ -75,7 +82,7 @@ body {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    gap: 2vw;
+    gap: 0.4vw;
     /* margin-top: 1vw; */
 
 
