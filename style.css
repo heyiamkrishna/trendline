@@ -113,7 +113,8 @@ body {
     align-items: center;
     gap: 2vw;
     overflow-x: auto;
-    /* background-color: aliceblue; */
+
+    
 }
 
 #text-content h4 {
