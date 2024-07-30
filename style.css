@@ -66,15 +66,14 @@ body {
     font-weight: 500;
     font-size: 1.3vw;
 }
-
+#nav-part2 h5{
+    display: none;
+}
 #nav-part2 span{
     margin-left: 0.4vw;
     color: rgb(76, 84, 241);
 }
 
-#nav-part2 i{
-    display: none;
-}
 #nav-part2 h4:nth-child(5n) {
     margin-right: 2vw;
 }
@@ -206,8 +205,25 @@ body {
     font-size: 3.5vw;
 }
 
-#nav-part2 h4:nth-child(1n) {
-    margin-right: 2vw;
+#nav-part2 h5 {
+    display: initial;
+}
+
+#nav-part2 h4 {
+    display: none;
+}
+
+
+#nav-part2 h4:first-child{
+   margin: 0px 6vw;
+    font-size: 3vw;
+    display: initial;
+}
+
+#nav-part2 i {
+    font-size: 4vw;
+    font-weight: 700;
+    display: initial;
 }
 
 
@@ -216,7 +232,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 2vw;
+    gap: 0.3vw;
 }
 
 #nav2 h5 {
